@@ -1,4 +1,4 @@
-# Web-scraping-nuclear-data-library
+# Cross Section data from TENDL nuclear data library
 
 <img width="675" alt="Screen Shot 2022-11-17 at 9 51 50 AM" src="https://user-images.githubusercontent.com/72933965/202507681-23e595f0-2d9d-4323-a22e-66b85b834ac3.png">
 
