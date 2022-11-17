@@ -10,5 +10,3 @@ postgres:
   dbname : CrossSection
   user : user
   password : password
-   
- 
