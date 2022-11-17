@@ -8,7 +8,7 @@ extraction_parameters:
 
 postgres:
   dbname : CrossSection
-  user : postgres
+  user : user
   password : password
    
  
