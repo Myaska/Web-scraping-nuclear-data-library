@@ -6,7 +6,6 @@ import psycopg2
 from sqlalchemy import create_engine
 import matplotlib.pyplot as plt
 
-
 def data_parsing(particle, element, initial_isotope, production_isotope):
     
     URL = "https://tendl.web.psi.ch/tendl_2021/tendl2021.html"
@@ -125,17 +124,8 @@ def data_visualization(conn, cursor, production_element, production_isotope, ele
 
         plt.savefig('TENDL_{0}{1}{2}{3}{4}.png'.format(initial_isotope, element, reaction, production_isotope, production_element), dpi=1200)
         
-    print("File was succesfully saved in a working directory")
+    print("Plot was succesfully saved in a working directory")
         
     conn.commit()
     conn.close()        
-
-
-    
-
-
-
-
-
-
-         
+  
