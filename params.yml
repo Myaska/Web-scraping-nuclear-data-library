@@ -1,0 +1,14 @@
+extraction_parameters:
+  particle : alpha
+  element : V
+  initial_isotope : 51
+  production_element : Mn
+  production_isotope : 52
+  reaction : (a,x)
+
+postgres:
+  dbname : CrossSection
+  user : postgres
+  password : password
+   
+ 
