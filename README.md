@@ -4,7 +4,7 @@
 
 This is a web scraping application for the TENDL nuclear data library which provides the output of the TALYS nuclear model code system for direct use in both basic physics and applications (https://tendl.web.psi.ch/tendl_2021/tendl2021.html).
 
-### Befor run this up you should:
+### Before run this app you should:
   - create a DataBase in PostgresSQL where you want to load data
   
 ### Change parameters in params.yml:
